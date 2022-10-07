@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form action="/form.php" method="post">
+    <form action="/thanks.php" method="post">
         <div>
             <label for="nom">Nom :</label>
             <input type="text" id="nom" name="user_lastname">
@@ -26,7 +26,7 @@
 
         <div>
             <label for="courriel">Courriel :</label>
-            <input type="email" id="courriel" name="user_email">
+            <input type="email" id="courriel" name="user_email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
         </div>
 
         <br>
